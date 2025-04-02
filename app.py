@@ -62,6 +62,6 @@ if st.button("적정 가격 예측하기"):
             st.markdown(f"- 최대 가격: ₹ {max_price:.2f}")
             st.markdown(f"- 평균 가격: ₹ {mean_price:.2f}")
         else:
-            st.info("해당 조합에 대한 통계 데이터가 없습니다.")
+            st.info("해당 조합으로 판매된 적이 없습니다.")
     else:
         st.warning("가격 통계 데이터를 불러올 수 없습니다. 'price_stats.csv' 파일이 필요합니다.")
